@@ -1,0 +1,901 @@
+@font-face {
+	font-family: 'Akzidenz-Grotesk';
+	src: url('../assets/AkzidenzGroteskBQ-Light.eot');
+	src: url('../assets/AkzidenzGroteskBQ-Light.eot?#iefix') format('embedded-opentype'),
+		url('../assets/AkzidenzGroteskBQ-Light.woff2') format('woff2'),
+		url('../assets/AkzidenzGroteskBQ-Light.woff') format('woff'),
+		url('../assets/AkzidenzGroteskBQ-Light.ttf') format('truetype'),
+		url('../assets/AkzidenzGroteskBQ-Light.svg#AkzidenzGroteskBQ-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Akzidenz-Grotesk-Medium';
+	src: url('../assets/AkzidenzGroteskBQ-Medium.eot');
+	src: url('../assets/AkzidenzGroteskBQ-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../assets/AkzidenzGroteskBQ-Medium.woff2') format('woff2'),
+		url('../assets/AkzidenzGroteskBQ-Medium.woff') format('woff'),
+		url('../assets/AkzidenzGroteskBQ-Medium.ttf') format('truetype'),
+		url('../assets/AkzidenzGroteskBQ-Medium.svg#AkzidenzGroteskBQ-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Akzidenz-Grotesk';
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    margin-bottom: 55px;
+    font-size: 4em;
+    color: #000000;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #333333;
+}
+
+strong {
+    font-family: 'Akzidenz-Grotesk-Medium';
+}
+
+small {
+    font-size: 0.5em;
+}
+
+p {
+    font-size: 1.25em;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 1.35em;
+    /*text-align: justify;*/
+}
+
+section {
+    width: 100%;
+    text-align: justify;
+    padding: 120px 100px 150px;
+}
+
+header {
+    /*height: 8.5vw;*/
+    height: 150px;
+}
+
+footer {
+    background-color: #4c4845;
+    padding: 50px 0;
+}
+
+.yellowText, a {
+    color: #c9aa5d;
+}
+
+.whiteText {
+    color: #ffffff;
+}
+
+
+
+/****************************************
+            NAVEGAÇÃO
+****************************************/
+
+#navegacao {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    /*-webkit-flex-direction: column;
+    flex-direction: column;*/
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    background-color: #ffffff;
+    /* TODO: Quando o logotipo estiver disponivel, experimentar colocar a orientação como colunas e colocar
+    **       o logotipo e a nav bar em cada extremo da flex box */
+}
+
+#navegacao a {
+    margin-left: 45px;
+    width: 15%;
+    align-self: center;
+}
+
+#navegacao a img {
+    width: 100%;
+}
+
+#navegacao nav {
+    margin-bottom: 20px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+
+#navegacao nav ul {
+    margin-bottom: 40px;
+    margin-right: 60px;
+    margin: 0 60px 0 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    font-size: 1.20vw;
+    transition: all 0.5s ease;
+}
+
+#navegacao nav ul li {
+    list-style: none;
+    margin-left: 40px;
+    padding-bottom: 14px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+}
+
+#navegacao nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    overflow: hidden;
+    margin-left: 0;
+    width: auto;
+    align-self: flex-end;
+}
+
+#navegacao nav ul li a span {
+    display: inline-block;
+    position: relative;
+    transform: translateY(0%);
+    transition: transform 0.3s;
+    line-height: 1.15em;
+}
+
+#navegacao nav ul li a span:before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 100%;
+    /*color: #875f37;*/
+    color: #c9aa5d;
+    
+}
+
+#navegacao nav ul li a span:hover {
+    transform: translateY(-100%);
+}
+
+.fixed {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px !important;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+    opacity: 0.98;
+}
+
+#navegacao a.fixed-img {
+    width: 6.5%;
+}
+
+#navegacao nav.fixed-nav {
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#navegacao nav.fixed-nav ul {
+    font-size: 1vw;
+}
+
+#navegacao nav.fixed-nav ul li {
+    padding-bottom: 0;
+}
+
+#navegacao nav.fixed-nav ul li a {
+    width: auto;
+}
+
+/****************************************
+            IMAGES SLIDER
+****************************************/
+
+#slider-wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#slider-images {
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+
+#slider-images img {
+    display: none;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#slider-images img.active-slider-img {
+    display: block;
+}
+
+#hover-back-arrow, #hover-next-arrow {
+    position: absolute;
+    width: 12%;
+
+}
+
+#hover-back-arrow {
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#hover-next-arrow {
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#back, #next {
+    position: absolute;
+    z-index: 100;
+    width: 40%;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+    padding: 30px 0px;
+}
+
+#back {
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    -webkit-transition: transform 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: transform 0.3s;
+}
+
+#hover-back-arrow:hover #back {
+    transform: translate(0, -50%);
+}
+
+#next {
+    top:50%;
+    right: 0;
+    transform: translate(100%, -50%);
+    -webkit-transition: transform 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: transform 0.3s;
+}
+
+#hover-next-arrow:hover #next {
+    transform: translate(0, -50%);
+}
+
+/****************************************
+            SECÇÕES
+****************************************/
+
+/***** MUSEU *****/
+#museu {
+    background: url("../imagens/curvas.png") center center no-repeat;
+    background-size: cover;
+}
+
+/***** MEGALITISMO *****/
+#megalitismo {
+    background-color: #4c4845;
+}
+
+#megalitismo p{
+    color: #ffffff;
+}
+
+#valencias, #listaContactos, #bilheteira {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#valencias {
+    margin-top: 80px;
+}
+
+#valencias figure {
+    text-align: center;
+    margin-bottom: 20px;
+    /*width: 20%;*/
+}
+
+#valencias figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#valencias figure figcaption {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333333;
+}
+
+/***** POSTAIS *****/
+
+#postaisContainer {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+#postais-back-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+#postais-next-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+#postais-back-arrow:hover, #postais-next-arrow:hover {
+    transform: scale(1.15) translateY(-50%);
+}
+
+#postaisWrapper {
+    width: 90%;
+    overflow: hidden;
+}
+
+#postaisWrapper ul{
+    width: 100%;
+    margin-left: -100%;
+}
+
+#postaisWrapper ul li {
+    width: 16.6666%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    float: left;
+    padding: 30px;
+    font-size: 0.87em;
+}
+
+#postaisWrapper ul li img {
+    width: 47%;
+    height: 430px;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+#postaisWrapper ul li .descricaoPostais {
+    width: 50%;
+}
+
+#postaisWrapper ul li p {
+    margin-bottom: 10px;
+    clear: both;
+}
+
+#postaisWrapper ul li p:last-child {
+    padding-top: 10px;
+}
+
+#postaisWrapper ul li p small{
+    text-align: right;
+    float: right;
+    font-size: 0.7em;
+}
+
+
+/***** ACTIVIDADES *****/
+
+#actividades {
+    background-color: #4c4845;
+}
+
+#listaActividades {
+    display: -webkit-flex;
+    display: flex;
+}
+
+#listaActividades figure {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#listaActividades p strong {
+    color: #333333;
+}
+
+#actividades ul {
+    font-size: 1.25em;
+    margin-left: 60px;
+    margin-top: -20px;
+}
+
+#actividades ul li {
+    line-height: 1.35em;
+}
+
+#actividades small {
+    font-size: 0.6em;
+}
+
+/***** SUGESTÃO *****/
+#sugestao {
+    background-color: #c9aa5d;
+}
+
+#sugestao p {
+    color: #ffffff;
+}
+
+#sugestao p a {
+    color: #4c4845;
+}
+
+/***** HÓRARIO *****/
+
+#horario {
+    background-color: #c9aa5d;
+}
+
+#horarioFuncionamento {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+#aberto, #fechado {
+    width: 30%;
+    text-align: center;
+}
+
+#horarioFuncionamento img, #infoHorario img{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#infoHorario {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/***** PREÇÁRIO *****/
+
+#precario {
+    background-color: #dddddd;
+}
+
+#bilheteira table {
+    text-align: center;
+    font-size: 0.95em;
+    border-collapse: collapse;
+    border: solid 1px #000000;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#bilheteira caption {
+    text-align: left;
+    font-size: 1.3em;
+    padding-bottom: 5px;
+}
+
+#bilheteira table th {
+    background-color: #999999;
+    color: #ffffff;
+}
+
+#bilheteira table th, #bilheteira table td {
+    padding: 8px 18px;
+}
+
+/******* GALERIA ********/
+
+#galeria {
+    position: relative;
+}
+
+#galeriaWrapper {
+    width: 100%;
+    line-height: 0;   
+    -webkit-column-count: 9;
+    -webkit-column-gap:   5px;
+    -moz-column-count:    9;
+    -moz-column-gap:      5px;
+    column-count:         9;
+    column-gap:           5px;
+}
+
+#galeriaWrapper .imgThumb {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+#galeriaWrapper .imgThumb img {
+    display: block;
+    width: 100%;
+    opacity: 0.6;
+    -webkit-transition: opacity 1s, -webkit-transform 1s; /* Safari */
+    transition: opacity 1s, transform 1s;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -o-column-break-inside: avoid;
+    -ms-column-break-inside: avoid;
+    column-break-inside: avoid;
+    -webkit-backface-visibility: hidden;
+    cursor: pointer;
+}
+
+#galeriaWrapper .imgThumb img:hover{
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+
+#galeriaOverlay {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.9);
+    padding: 30px;
+    text-align: center;
+}
+
+#galeriaOverlay #imagem-overlay{
+    max-height: 100%;
+    border: solid 6px #ffffff;  
+}
+
+#galeriaOverlay img#backArrow-overlay {
+    width: 54px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#galeriaOverlay img#backArrow-overlay:hover {
+    transform: scale(1.1, 1.1) translateY(-50%);
+}
+
+#galeriaOverlay img#nextArrow-overlay {
+    width: 54px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#galeriaOverlay img#nextArrow-overlay:hover {
+    transform: scale(1.1, 1.1) translateY(-50%);
+}
+
+#galeriaOverlay img#close-overlay {
+    width: 14px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#galeriaOverlay img#close-overlay:hover {
+    transform: scale(1.3, 1.3);
+}
+
+/***** ONDE ESTAMOS *****/
+
+#ondeEstamos {
+    background-color: #c9aa5d;
+}
+
+#mapaLocalizacao {
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+}
+
+/***** CONTACTOS *****/
+
+#morada, #formularioContacto {
+    max-width: 45%;
+}
+
+#formularioContacto input[type="text"], #formularioContacto input[type="email"], #formularioContacto textarea {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    border: none;
+    border-bottom: solid 1px #4c4845;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+#formularioContacto span {
+    display: inline-block;
+    background-color: darkred;
+    color: #ffffff;
+    padding: 5px 10px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#formularioContacto span:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom:-10px;
+    left: 10px;
+    border-top: solid 10px darkred;
+    border-right: solid 7px transparent;
+    border-left: solid 7px transparent;
+}
+
+#formularioContacto input[type="submit"] {
+    clear:both;
+    color: #ffffff;
+    background-color: #c9aa5d;
+    border: none;
+    padding: 6px 30px;
+    font-size: 0.8em;
+    float: right;
+    line-height: 32px;
+    border: solid 4px #c9aa5d;
+    cursor: pointer;
+    font-family: 'Akzidenz-Grotesk-Medium';
+}
+
+#formularioContacto input[type="submit"]:hover {
+    background-color: #ffffff;
+    border: solid 2px #c9aa5d;
+    color: #c9aa5d;
+}
+
+#formularioContacto .mensagem {
+    color: #ffffff;
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 20px;
+}
+
+#formularioContacto .erro {
+    background-color: darkred;
+}
+
+#formularioContacto .sucesso {
+    background-color: green;
+}
+
+#formularioContacto input:focus, #formularioContacto textarea:focus {
+    outline: none;
+}
+
+#formularioContacto textarea {
+    resize: vertical;
+}
+
+#captchaEnvBtn {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+#captchaWrapper {
+	display: inline-block;
+	padding: 4px;
+    /*border: solid 1px #ccc;*/
+}
+
+#captcha {
+	display: block;
+}
+
+#formularioContacto #captchaText {
+	margin-bottom: 5px;
+}
+
+/****************************************
+            FOOTER
+****************************************/
+
+#logosInstitucionais {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#logosInstitucionais img {
+    width: 150px;
+    height: auto;
+    margin-left: 40px;
+}
+
+#logosInstitucionais img:nth-child(2) {
+    width: 130px;
+}
+
+
+/****************************************
+            EDUCAÇÃO
+****************************************/
+
+#educacaoWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/********* MENU ***********/
+
+#educacaoWrapper nav {
+    width: 20%;
+}
+
+#educacaoWrapper nav ul {
+    width: 100%;
+}
+
+#educacaoWrapper nav li {
+    width: 100%;
+    border-bottom: solid 1px #000000;
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+#educacaoWrapper nav li:first-child {
+    padding-top: 0;
+}
+
+#educacaoWrapper nav li:nth-child(6) {
+    padding-top: 100px;
+}
+
+#educacaoWrapper nav li a {
+    color: #000000;
+    text-decoration: none;
+    padding-left: 5px;
+    transition: padding-left 0.6s;
+}
+
+#educacaoWrapper nav li a:hover {
+    color: #c9aa5d;
+    padding-left: 15px;
+}
+
+/********* LISTA ACTIVIDADES ***********/
+
+#actividadesEducativasContainer {
+    width: 70%;
+}
+
+#actividadesEducativasContainer h4.escalaoActividades {
+    width: 100%;
+    font-size: 1.6em;
+    background-color: #c9aa5d;
+    color: #ffffff;
+    line-height: 60px;
+    text-align: right;
+    padding-right: 30px;
+    margin-bottom: 40px;
+}
+
+#actividadesEducativasContainer .actividadeWrapper {
+    margin-bottom: 80px;
+}
+
+#actividadesEducativasContainer .actividadeWrapper p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#actividadesEducativasContainer .actividadeWrapper p.nomeActividade {
+    width: 100%;
+    background-color: #EFECCA;
+    line-height: 40px;
+    font-family: 'Akzidenz-Grotesk-Medium';
+    padding-left: 20px;
+}
+
+a.pdfDownload {
+    text-decoration: none;
+}
+
+a.pdfDownload:before {
+    content: url("../imagens/pdf.png");
+    margin-right: 10px;
+    vertical-align: -50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

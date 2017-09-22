@@ -1,0 +1,70 @@
+{
+    "postais":[
+        {
+            "nome": "Lapa do Maltês",
+            "imagem": "cartao_lapa_fora.jpg",
+            "classificacao": "Monumento não classificado.",
+            "freguesia": "Pavia",
+            "itinerario": "O monumento situa-se do lado esquerdo da Estrada Nacional 251, sentido Pavia-Vimieiro, próxima a um charco.",
+            "acessibilidade": "Difícil. Em propriedade privada.",
+            "descricao": "Também conhecida por Pedra da Moura foi escavada por Vergílio Correia em 1914. Nas paredes deste abrigo, principalmente do lado esquerdo, existem covinhas, semelhantes às encontradas em algumas antas e menires. Foram encontrados, próximos, fragmentos de cerâmica manual, percutores e lascas.",
+            "fonte": ["Vergílio Correia, (1921). El Neolítico de Pavía (Alentejo-Portugal)", "Museo Nacional de Ciencias Naturales, Madrid","AAVV, (2012). O Tempo das Pedras. Carta Arqueológica de Mora. Câmara Municipal de Mora","Património Cultural | www.patrimoniocultural.pt"],
+            "coordenadas": "Latitude: 38.894137 | Longitude: -8.004547"
+        },
+        {
+            "nome": "Anta da Lapeira",
+            "imagem": "cartao_antalapeira.jpg",
+            "classificacao": "Monumento não classificado.",
+            "freguesia": "Pavia",
+            "itinerario": "Visível do lado esquerdo da estrada nacional Pavia-Vimieiro",
+            "acessibilidade": "Em propriedade privada",
+            "descricao": "Também denominada por Vergílio Correia (1921), pela sua localização, Anta Iª da Tapada. Quase intacta, apresenta uma planta poligonal com 7 esteios na câmara e uma laje de cobertura de forma redonda ainda in situ.  Quando Vergílio Correia a registou, era usada como pocilga e reconheceu que alguém a teria escavado há mais de 30 anos. Os materiais, machados e placas em barro, terão sido expostos no então Museu Etnológico.",
+            "fonte": ["Vergílio Correia, (1921). El Neolítico de Pavía (Alentejo-Portugal)", "Museo Nacional de Ciencias Naturales, Madrid"],
+            "coordenadas": "Latitude: 38.889224 | Longitude: -8.010691"
+        },
+        {
+            "nome": "Cruciforme Megalítico do Alto da Cruz",
+            "imagem": "cartao_altocruz.png",
+            "classificacao": "Monumento não classificado.",
+            "freguesia": "Brotas",
+            "itinerario": "O monumento fica a aproximadamente 5km de Brotas. A partir de Brotas, siga a direcção do Caminho das Águias. No primeiro cruzamento, siga pelo caminho da direita. 2,5km depois, tome o caminho da esquerda até percorrer 1,40km. Siga pelo caminho da direita por mais 520m. Estacione o veículo nas imediações e caminhe cerca de 300m pelo caminho que se encontra à esquerda.",
+            "acessibilidade": "Difícil. Caminhos privados de terra batida. É necessário e obrigatório abrir e fechar portões.",
+            "descricao": "O cruciforme megalítico do Alto da Cruz, situado junto ao vértice geodésico do Alto da Cruz, na Herdade de Santa Cruz, freguesia de Brotas, foi identificado no verão de 2011 por Leonor Rocha e Pedro Alvim. O conjunto de seis menires encontrados tombados e em forma de cruz apresenta características excepcionais. A sua raridade e especificidade fazem deste cruciforme o único peninsular. Os trabalhos de escavação deste conjunto decorreram no Verão de 2012. Em Outubro do mesmo ano procedeu-se à sua recuperação. Os trabalhos foram acompanhados por uma equipa da National Geographic, que reportou o achado numa edição portuguesa da revista, relevando as características excepcionais do monumento.",
+            "fonte": ["'O  Tempo das Pedras: Carta Arqueológica de Mora' de Manuel Calado, Leonor Rocha e Pedro Alvim"],
+            "coordenadas": "Latitude: 38.838510 | Longitude: -8.118532"
+        },
+        {
+            "nome": "Recinto Megalítico de Vale d'El Rei",
+            "imagem": "cartao_delrei.jpg",
+            "classificacao": "Monumento não classificado.",
+            "freguesia": "Pavia",
+            "itinerario": "Na EN 370, sentido Pavia-Avis, aos 2,2km (a contar do centro de Pavia), encontra uma estrada de terra batida à direita. O monumento fica a 1km de distância da EN nesse ponto.",
+            "acessibilidade": "Difícil. O monumento encontra-se numa propriedade privada, cujo acesso é vedado por um portão.",
+            "descricao": "O recinto megalítico de Vale d’El Rei foi dado a conhecer nos anos 50 por Georg e Vera Leisner e redescoberto 20 anos depois pela equipa dos Serviços Geológicos de Portugal, que o rebaptizou de Cromeleque do Monte das Figueiras. O Cromeleque de Vale d’El Rei foi, aparentemente, o primeiro monumento deste género a ser registado em Portugal. Para além do primeiro, era também o menor de todos e o mais bem conservado. No entanto, depois de ter sido vandalizado para uso do terreno agrícola onde se situa, foi necessário restaurá-lo. A intervenção realizada em 2002 teve como objectivo prinicipal tentar recolher informação científica sobre o monumento e, simultaneamente, obter dados para o seu restauro. A planta deste recinto apresenta uma forma de “ferradura” perfeita, aberta a nascente, o que confirma a importância das orientações astronómicas no megalitismo alentejano.",
+            "fonte": ["<em>'O  Tempo das Pedras: Carta Arqueológica de Mora'</em> de Manuel Calado, Leonor Rocha e Pedro Alvim"],
+            "coordenadas": "Latitude: 38.900978 | Longitude: -7.996058"
+        },
+        {
+            "nome": "Anta de S. Dinis",
+            "imagem": "cartao_Anta.png",
+            "classificacao": "Monumento Nacional (Decreto de 16-06-1910, DG, n.º 136, de 23-06-1910)",
+            "freguesia": "Pavia",
+            "itinerario": "O monumento situa-se na vila de Pavia, no Largo dos Combatentes da Grande Guerra",
+            "acessibilidade": "Fácil",
+            "descricao": "A Anta-Capela de São Dinis é um caso único de um dólmen situado em pleno contexto urbano, foi erguida entre o IV milénio a.C. e o III milénio a.C., precisamente no centro da vila de Pavia. Trata-se de um grande dólmen de corredor, do qual resta apenas a câmara megalítica, adaptada a templo católico durante a Idade Média, dedicada a São Dinis. Foi intervencionada em 1914 por Vergílio Correia e, em 2014 por Leonor Rocha, por sua vez, com o intuito de verificar a existência de restos de corredor, o que se veio a confirmar. O monumento tem aproximadamente quatro metros de diâmetro e três de altura. A sua adaptação ao culto católico inclui um altar de azulejos de estilo setecentista e barroco. É uma das maiores da Península Ibérica, considerada também como a mais significativa Anta-Capela de Portugal.",
+            "fonte": ["<em>'O  Tempo das Pedras: Carta Arqueológica de Mora'</em> de Manuel Calado, Leonor Rocha e Pedro Alvim", "Património Cultural | www.patrimoniocultural.pt"],
+            "coordenadas": "Latitude: 38.894137 | Longitude: -8.017254"
+        },
+        {
+            "nome": "Cromeleque das Fontainhas",
+            "imagem": "cartao_fontainhas.png",
+            "classificacao": "Imóvel de Interesse Público (Decreto n.º 29/90, DR, I Série, n.º 163, de 17-07-1990)",
+            "freguesia": "Pavia",
+            "itinerario": "O monumento está sinalizado na EN251, direcção Mora-Pavia, fica a cerca de 200 metros da estrada nacional (acessível por estrada de terra batida)",
+            "acessibilidade": "Fácil",
+            "descricao": "O recinto das Fontainhas foi identificado pela equipa dos Serviços Geológicos de Portugal. A descoberta foi publicada em 1977, num artigo que mencionava a existência de seis menires, quatro dos quais in situ, um quinto monólito tombado e o sexto, o maior de todos e que se situava ao centro, partido junto à base e igualmente tombado. A campanha de escavações realizada em 2005 por Manuel Calado e Leonor Rocha, teve como objectivo avaliar o seu estado de conservação, recolher informação científica e proceder ao seu restauro. Um ano depois, todos os menires foram recolocados na sua posição original. Este recinto faz parte de um pequeno conjunto de monumentos praticamente exclusivos do Alentejo Central, tanto pela sua raridade como pela sua antiguidade e encontra-se classificado como Imóvel de Interesse Público desde 1990.",
+            "fonte": ["'O  Tempo das Pedras: Carta Arqueológica de Mora' de Manuel Calado, Leonor Rocha e Pedro Alvim"],
+            "coordenadas": "Latitude: 38.931079 | Longitude: -8.121081"
+        }
+    ]
+}

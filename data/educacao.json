@@ -1,0 +1,212 @@
+{
+    "PreEscolar": {
+        "nome": "Pré-Escolar (3 aos 5 anos)",
+        "actividades": [
+            {
+                "nome": "Histórias à Lareira",
+                "descricao": "Através da leitura de uma história junto a uma Anta em tamanho real, procuramos recriar os momentos que os nossos antepassados passavam à lareira, descrevendo algumas das suas actividades do quotidiano como as caçadas, a pesca, etc...",
+                "specs": {
+                    "duracao": "45 minutos"
+                }
+            },
+            {
+                "nome": "Ritual de Iniciação",
+                "descricao": "Consiste na realização de pinturas faciais e penteados com adornos pré-históricos. Procuramos assim fomentar a criatividade através da identificação de rituais de iniciação em tribos actuais, procurando a ligação com as tribos ancestrais.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            },
+            {
+                "nome": "Pinturas Rupestres",
+                "descricao": "No ambiente de uma gruta, com corantes alimentares e pigmentos, aprendemos a produzir tintas e a utilizá-las num cenário de luz reduzida.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            }
+        ]
+    },
+    "1CEB": {
+        "nome": "1º CEB (6 aos 10 anos)",
+        "actividades": [
+            {
+                "nome": "Ritual de Iniciação",
+                "descricao": "Consiste na realização de pinturas faciais e penteados com adornos pré-históricos. Procuramos assim fomentar a criatividade através da identificação de rituais de iniciação em tribos actuais, procurando a ligação com as tribos ancestrais.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            },
+            {
+                "nome": "Pinturas Rupestres",
+                "descricao": "Num ambiente de gruta, com corantes alimentares e pigmentos, ensinamos a produzir tintas e a utilizá-las num cenário de luz reduzida.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            },
+            {
+                "nome": "Quero ser um Arqueólogo",
+                "descricao": "Através da recriação de uma escavação, vamos aguçar a curiosidade e dar a conhecer o trabalho dos arqueólogos, e descobrir peças pré-históricas observadas durante a visita. No final da escavação, procedemos à montagem dos fragmentos.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            },
+            {
+                "nome": "Deusas Pintadas",
+                "descricao": "Pintura e gravação de placas de xisto e grés com recurso a pigmentos de cores idênticas às encontradas nas originais.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            },
+            {
+                "nome": "Rock in Mora",
+                "descricao": "Nesta actividade, vamos construir, com materiais naturais, instrumentos musicais; a seguir, vamos compor autênticas sinfonias.",
+                "specs": {
+                    "duracao": "45 minutos"
+                }
+            },
+            {
+                "nome": "Peça d'Água",
+                "descricao": "Os alunos vão identificar a utilidade de diferentes elementos do rio, estabelecendo a ligação com as actividades do quotidiano da Pré-História.",
+                "specs": {
+                    "duracao": "40 minutos"
+                }
+            }
+        ]
+    },
+    "2CEB": {
+        "nome": "2º CEB (10 aos 12 anos)",
+        "actividades": [
+            {
+                "nome": "Calhau, Biface ou Lâmina?",
+                "descricao": "Através do manuseamento de réplicas perfeitas de instrumentos líticos, os alunos vão identificar a evolução das peças ao longo da pré-história e as matérias-primas para as fabricar.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            },
+            {
+                "nome": "Pão com Queijo ou Carne de Porco à Alentejana?",
+                "descricao": "Nesta actividade, vamos conhecer diferentes peças de cerâmica e a utilidade de cada uma delas.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            },
+            {
+                "nome": "Quero ser um Arqueólogo",
+                "descricao": "Através da recriação de uma escavação, vamos aguçar a curiosidade e dar a conhecer o trabalho dos arqueólogos, descobrindo peças pré-históricas observadas durante a visita. No final da escavação, procedemos à montagem dos fragmentos.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            }
+        ]
+    },
+    "3CEB": {
+        "nome": "3º CEB (12 aos 15 anos)",
+        "actividades": [
+            {
+                "nome": "Calhau, Biface ou Lâmina?",
+                "descricao": "Através do manuseamento de réplicas perfeitas de instrumentos líticos, os alunos são convidados a identificar a evolução das peças ao longo da pré-história e as matérias-primas para as fabricar.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            },
+            {
+                "nome": "Pão com Queijo ou Carne de Porco à Alentejana?",
+                "descricao": "Nesta actividade, vamos manusear diferentes peças cerâmicas e descobrir as preferências alimentares das populações ao longo da pré-história.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            },
+            {
+                "nome": "Pinturas Rupestres",
+                "descricao": "Num ambiente de gruta/anta, recorrendo a corantes alimentares e pigmentos, vamos aprender a produzir tintas e a utilizá-las em ambiente de luz reduzida. Os alunos são convidados a procurar diferenciar representações paleolíticas de neolíticas e aprender as diferentes técnicas usadas.",
+                "specs": {
+                    "duracao": "30 minutos"
+                }
+            }
+        ]
+    },
+    "Secundario": {
+        "nome": "Secundário",
+        "actividades": [
+            {
+                "nome": "Quero ser um arqueólogo",
+                "descricao": "Nesta actividade, vamos aprender os procedimentos inerentes a uma escavação. O antes, o durante e o depois, e ainda a interdisciplinariedade existente nos procedimentos arqueológicos.",
+                "specs": {
+                    "duracao": "45 minutos"
+                }
+            },
+            {
+                "nome": "A Química e Biologia na Arqueologia",
+                "descricao": "Como sabemos os conteúdos das peças de cerâmica? Vamos identificar sementes e ossos depositados em recipientes através da sua comparação com fotografias.",
+                "specs": {
+                    "duracao": "45 minutos"
+                }
+            },
+            {
+                "nome": "Cuidado com o Calhau",
+                "descricao": "Nesta actividade, vamos identificar as rochas usadas na produção de utensílios e pigmentos. Será assim tão importante conhecer a dureza das rochas? Os alunos são convidados a identificar a dureza das rochas recorrendo à escala de Mohs, seguindo-se a produção de lascas.",
+                "specs": {
+                    "duracao": "45 minutos"
+                }
+            }
+        ]
+    },
+    "Oficinas": {
+        "nome": "Oficinas",
+        "actividades": [
+            {
+                "nome": "Oficina de Olaria",
+                "descricao": "Nesta oficina, procuramos dar a conhecer as diferentes pastas para fabrico de cerâmicas ao longo do tempo bem como os elementos não-plásticos que as incorporavam. Posteriormente, vamos fabricar réplicas de diversos objectos patentes na exposição.",
+                "specs": {
+                    "duracao": "2 horas"
+                }
+            },
+            {
+                "nome": "Oficina de Talhe",
+                "descricao": "Além de ficarmos a conhecer os variados objetos talhados (pontas de seta, lâminas, geométricos, raspadeiras) e a sua utilidade, vamos ainda aprender a fabricar uma ponta de seta.",
+                "specs": {
+                    "duracao": "2 horas"
+                }
+            },
+            {
+                "nome": "Contas de Colar",
+                "descricao": "Depois de uma breve exposição sobre os minerais e orgânicos preferidos pelas populações pré-históricas, vamos fabricar contas de colar e adornos.",
+                "specs": {
+                    "duracao": "2 horas"
+                }
+            },
+            {
+                "nome": "Domingo é dia de caça",
+                "descricao": "Mas não exclusivamente ao domingo. Nesta oficina, vamos aprender a fabricar arcos e a treinar com eles como faziam as crianças na Pré-história antes de se iniciarem no campo.",
+                "specs": {
+                    "duracao": "2 horas"
+                }
+            },
+            {
+                "nome": "Pão com queijo",
+                "descricao": "Nesta oficina, vamos aprender a fazer queijo fresco, a moer cereais e a cozer pão semelhante ao que se comia na pré-história quando as populações iniciaram a pastorícia e a agricultura.",
+                "specs": {
+                    "duracao": "1 horas"
+                }
+            }
+        ]
+    },
+    "ActividadesArLivre": {
+        "nome": "Actividades ao ar livre",
+        "actividades": [
+            {
+                "nome": "Descobrir o Cromeleque das Fontainhas",
+                "descricao": "Esta actividade engloba as visitas guiadas ao Museu e ao Cromeleque das Fontainhas.",
+                "specs": {
+                    "duracao": "3 horas"
+                }
+            },
+            {
+                "nome": "Um mês, Um Monumento",
+                "descricao": "Esta actividade engloba a visita guiada ao Museu e a um monumento do Concelho.",
+                "specs": {
+                    "duracao": "5 horas"
+                }
+            }
+        ]
+    }
+}
